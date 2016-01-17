@@ -2,7 +2,7 @@
 Indy the artificial pancreas, I didn't name it...
 
 ## Status
-Looping at night and weekends, still lots to do before a complete system is in place
+Looping at night and weekends, and (very soon) SCHOOL, a continuation of our [original repo](https://github.com/jasoncalabrese/indy)
 
 ## [#OpenAPS](https://twitter.com/hashtag/openaps?f=images&vertical=default&src=hash)
 
