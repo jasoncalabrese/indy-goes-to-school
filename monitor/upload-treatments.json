@@ -1,1 +1,64 @@
-[]
+[
+  {
+    "_type": "BGReceived",
+    "_description": "BGReceived 2016-01-17T11:50:52 head[2], body[3] op[0x3f]",
+    "timestamp": "2016-01-17T11:50:52-08:00",
+    "_body": "c23647",
+    "_head": "3f0f",
+    "amount": 120,
+    "link": "c23647",
+    "_date": "34720b7110",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/BGReceived",
+    "created_at": "2016-01-17T11:50:52-08:00",
+    "enteredBy": "openaps://medtronic/723",
+    "eventType": "Note",
+    "notes": "BGReceived 723 "
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-01-17T11:50:52 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-01-17T11:50:52-08:00",
+    "_body": "",
+    "_head": "0a78",
+    "amount": 120,
+    "_date": "34722b7110",
+    "eventType": "<none>",
+    "glucose": 120,
+    "glucoseType": "Finger",
+    "notes": "Pump received finger stick.",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+    "created_at": "2016-01-17T11:50:52-08:00",
+    "enteredBy": "openaps://medtronic/723"
+  },
+  {
+    "_type": "BGReceived",
+    "_description": "BGReceived 2016-01-17T11:50:18 head[2], body[3] op[0x3f]",
+    "timestamp": "2016-01-17T11:50:18-08:00",
+    "_body": "c23647",
+    "_head": "3f0e",
+    "amount": 115,
+    "link": "c23647",
+    "_date": "12726b7110",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/BGReceived",
+    "created_at": "2016-01-17T11:50:18-08:00",
+    "enteredBy": "openaps://medtronic/723",
+    "eventType": "Note",
+    "notes": "BGReceived 723 "
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-01-17T11:50:18 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-01-17T11:50:18-08:00",
+    "_body": "",
+    "_head": "0a73",
+    "amount": 115,
+    "_date": "12722b7110",
+    "eventType": "<none>",
+    "glucose": 115,
+    "glucoseType": "Finger",
+    "notes": "Pump received finger stick.",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+    "created_at": "2016-01-17T11:50:18-08:00",
+    "enteredBy": "openaps://medtronic/723"
+  }
+]
