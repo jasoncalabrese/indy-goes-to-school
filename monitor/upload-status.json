@@ -6,45 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-20T00:31:41.000Z", 
+      "timestamp": "2016-01-20T00:35:52.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 64.65, 
-    "clock": "2016-01-19T16:30:36-08:00"
+    "clock": "2016-01-19T16:34:39-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 139, 
+      "bg": 132, 
       "temp": "absolute", 
-      "snoozeBG": 95, 
-      "timestamp": "2016-01-20T00:30:07.000Z", 
+      "snoozeBG": 92, 
+      "timestamp": "2016-01-20T00:34:34.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 88<110, setting -0.389U/hr", 
-      "eventualBG": 88, 
+      "reason": "Eventual BG 87<110, setting -0.522U/hr", 
+      "eventualBG": 87, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 1.15 Target: 115 Deviation: -7 BGI: -2.56", 
-      "tick": -4
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.2 Target: 115 Deviation: -8 BGI: -2.7", 
+      "tick": -7
     }, 
     "iob": {
-      "timestamp": "2016-01-20T00:30:07.000Z", 
-      "bolussnooze": 0.052, 
-      "basaliob": 0.334, 
-      "iob": 0.488, 
-      "activity": 0.0057
+      "timestamp": "2016-01-20T00:34:33.000Z", 
+      "bolussnooze": 0.039, 
+      "basaliob": 0.263, 
+      "iob": 0.408, 
+      "activity": 0.006
     }, 
     "enacted": {
-      "bg": 139, 
+      "bg": 132, 
       "temp": "absolute", 
-      "snoozeBG": 95, 
+      "snoozeBG": 92, 
       "recieved": true, 
-      "reason": "Eventual BG 88<110, setting -0.389U/hr", 
+      "reason": "Eventual BG 87<110, setting -0.522U/hr", 
       "rate": 0, 
-      "eventualBG": 88, 
-      "timestamp": "2016-01-20T00:30:25.000Z", 
+      "eventualBG": 87, 
+      "timestamp": "2016-01-20T00:34:51.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 1.15 Target: 115 Deviation: -7 BGI: -2.56", 
-      "tick": -4
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.2 Target: 115 Deviation: -8 BGI: -2.7", 
+      "tick": -7
     }
   }
 }
