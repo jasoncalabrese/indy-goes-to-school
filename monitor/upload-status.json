@@ -6,44 +6,44 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-20T15:15:41.000Z", 
+      "timestamp": "2016-01-20T15:23:42.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 175.525, 
-    "clock": "2016-01-20T07:14:37-08:00"
+    "reservoir": 175.475, 
+    "clock": "2016-01-20T07:22:37-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 87, 
       "temp": "absolute", 
-      "snoozeBG": 107, 
-      "timestamp": "2016-01-20T15:20:09.000Z", 
-      "rate": 0.2, 
-      "reason": "Eventual BG -88<110, setting 0.194U/hr", 
-      "eventualBG": -88, 
+      "snoozeBG": 88, 
+      "timestamp": "2016-01-20T15:22:24.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG -72<110, setting -0.65U/hr", 
+      "eventualBG": -72, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2 Target: 115 Deviation: -11 BGI: -3.19", 
+      "mealAssist": "Off: Carbs: 24 Boluses: 2 Target: 115 Deviation: -5 BGI: -4.18", 
       "tick": -4
     }, 
     "iob": {
-      "timestamp": "2016-01-20T15:20:08.000Z", 
-      "bolussnooze": 1.441, 
-      "basaliob": -0.026, 
-      "iob": 1.824, 
-      "activity": 0.0071
+      "timestamp": "2016-01-20T15:22:23.000Z", 
+      "bolussnooze": 1.187, 
+      "basaliob": -0.067, 
+      "iob": 1.716, 
+      "activity": 0.0093
     }, 
     "enacted": {
       "bg": 87, 
       "temp": "absolute", 
-      "snoozeBG": 107, 
+      "snoozeBG": 88, 
       "recieved": true, 
-      "reason": "Eventual BG -88<110, setting 0.194U/hr", 
-      "rate": 0.2, 
-      "eventualBG": -88, 
-      "timestamp": "2016-01-20T15:20:26.000Z", 
+      "reason": "Eventual BG -72<110, setting -0.65U/hr", 
+      "rate": 0, 
+      "eventualBG": -72, 
+      "timestamp": "2016-01-20T15:22:51.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2 Target: 115 Deviation: -11 BGI: -3.19", 
+      "mealAssist": "Off: Carbs: 24 Boluses: 2 Target: 115 Deviation: -5 BGI: -4.18", 
       "tick": -4
     }
   }
