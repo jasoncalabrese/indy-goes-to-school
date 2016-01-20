@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-20T16:36:04.000Z", 
+      "timestamp": "2016-01-20T16:41:42.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 174.15, 
-    "clock": "2016-01-20T08:34:40-08:00"
+    "reservoir": 173.975, 
+    "clock": "2016-01-20T08:40:37-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 218, 
       "temp": "absolute", 
-      "snoozeBG": 149, 
-      "timestamp": "2016-01-20T16:34:33.000Z", 
-      "reason": "max_iob 1, temp 2.1 >~ req 1.29U/hr", 
-      "eventualBG": 149, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2 Target: 115 Deviation: 38 BGI: -7.43", 
-      "tick": "+2"
+      "snoozeBG": 132, 
+      "timestamp": "2016-01-20T16:39:55.000Z", 
+      "rate": 0.95, 
+      "reason": "Eventual BG 132>=120, temp 2.1<0.928U/hr", 
+      "eventualBG": 132, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 24 Boluses: 2 Target: 115 Deviation: 28 BGI: -7.2", 
+      "tick": "+0"
     }, 
     "iob": {
-      "timestamp": "2016-01-20T16:34:32.000Z", 
+      "timestamp": "2016-01-20T16:39:54.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.63, 
-      "iob": 1.193, 
-      "activity": 0.0165
+      "basaliob": 0.774, 
+      "iob": 1.262, 
+      "activity": 0.016
     }, 
     "enacted": {
-      "bg": 180, 
+      "bg": 218, 
       "temp": "absolute", 
-      "snoozeBG": 174, 
+      "snoozeBG": 132, 
       "recieved": true, 
-      "reason": "Eventual BG 263>=120, adj. req. rate:2.2 to maxSafeBasal:2.1, temp 1.875<2.0999999999999996U/hr", 
-      "rate": 2.1, 
-      "eventualBG": 263, 
-      "timestamp": "2016-01-20T16:10:15.000Z", 
+      "reason": "Eventual BG 132>=120, temp 2.1<0.928U/hr", 
+      "rate": 0.925, 
+      "eventualBG": 132, 
+      "timestamp": "2016-01-20T16:40:13.000Z", 
       "duration": 30, 
-      "mealAssist": "On: Carbs: 24 Boluses: 2 Target: 100 Deviation: 83 BGI: -9.18", 
-      "tick": "+18"
+      "mealAssist": "Off: Carbs: 24 Boluses: 2 Target: 115 Deviation: 28 BGI: -7.2", 
+      "tick": "+0"
     }
   }
 }
