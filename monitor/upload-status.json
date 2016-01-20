@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-20T01:05:38.000Z", 
+      "timestamp": "2016-01-20T01:10:41.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 64.65, 
-    "clock": "2016-01-19T17:04:37-08:00"
+    "clock": "2016-01-19T17:09:36-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 99, 
+      "bg": 102, 
       "temp": "absolute", 
-      "snoozeBG": 107, 
-      "timestamp": "2016-01-20T01:04:32.000Z", 
-      "reason": "Eventual BG 107<110, temp 0 ~< req 0.144U/hr", 
-      "eventualBG": 107, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.2 Target: 115 Deviation: 0 BGI: -2.56", 
-      "tick": -2
+      "snoozeBG": 117, 
+      "timestamp": "2016-01-20T01:09:38.000Z", 
+      "rate": 0, 
+      "reason": "117 is in range. No temp required; cancel", 
+      "eventualBG": 117, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.2 Target: 115 Deviation: 5 BGI: -2.34", 
+      "tick": "+3"
     }, 
     "iob": {
-      "timestamp": "2016-01-20T01:04:32.000Z", 
+      "timestamp": "2016-01-20T01:09:37.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.17, 
-      "iob": -0.086, 
-      "activity": 0.0057
+      "basaliob": -0.183, 
+      "iob": -0.107, 
+      "activity": 0.0052
     }, 
     "enacted": {
-      "bg": 101, 
+      "bg": 102, 
       "temp": "absolute", 
-      "snoozeBG": 88, 
+      "snoozeBG": 117, 
       "recieved": true, 
-      "reason": "Eventual BG 88<110, setting -0.7U/hr", 
+      "reason": "117 is in range. No temp required; cancel", 
       "rate": 0, 
-      "eventualBG": 88, 
-      "timestamp": "2016-01-20T01:00:20.000Z", 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.2 Target: 115 Deviation: -13 BGI: -2.88", 
-      "tick": -3
+      "eventualBG": 117, 
+      "timestamp": "2016-01-20T01:09:55.000Z", 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.2 Target: 115 Deviation: 5 BGI: -2.34", 
+      "tick": "+3"
     }
   }
 }
