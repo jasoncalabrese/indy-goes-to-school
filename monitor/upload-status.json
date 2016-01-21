@@ -6,45 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-21T03:33:00.000Z", 
+      "timestamp": "2016-01-21T03:35:44.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 162.25, 
-    "clock": "2016-01-20T19:31:36-08:00"
+    "clock": "2016-01-20T19:34:37-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 97, 
+      "bg": 98, 
       "temp": "absolute", 
-      "snoozeBG": -5, 
-      "timestamp": "2016-01-21T03:31:26.000Z", 
+      "snoozeBG": 11, 
+      "timestamp": "2016-01-21T03:34:25.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG -93<110, setting -4.633U/hr", 
-      "eventualBG": -93, 
+      "reason": "Eventual BG -68<110, Snooze BG 11, setting -3.84U/hr", 
+      "eventualBG": -68, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 34 Boluses: 2.3 Target: 115 Deviation: -1 BGI: -8.1", 
-      "tick": -3
+      "mealAssist": "Off: Carbs: 34 Boluses: 2.3 Target: 115 Deviation: 15 BGI: -8.46", 
+      "tick": "+1"
     }, 
     "iob": {
-      "timestamp": "2016-01-21T03:31:25.000Z", 
-      "bolussnooze": 0.65, 
-      "basaliob": 0.306, 
-      "iob": 2.097, 
-      "activity": 0.018
+      "timestamp": "2016-01-21T03:34:25.000Z", 
+      "bolussnooze": 0.588, 
+      "basaliob": 0.254, 
+      "iob": 2.012, 
+      "activity": 0.0188
     }, 
     "enacted": {
-      "bg": 97, 
+      "bg": 98, 
       "temp": "absolute", 
-      "snoozeBG": -5, 
+      "snoozeBG": 11, 
       "recieved": true, 
-      "reason": "Eventual BG -93<110, setting -4.633U/hr", 
+      "reason": "Eventual BG -68<110, Snooze BG 11, setting -3.84U/hr", 
       "rate": 0, 
-      "eventualBG": -93, 
-      "timestamp": "2016-01-21T03:31:30.000Z", 
+      "eventualBG": -68, 
+      "timestamp": "2016-01-21T03:34:44.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 34 Boluses: 2.3 Target: 115 Deviation: -1 BGI: -8.1", 
-      "tick": -3
+      "mealAssist": "Off: Carbs: 34 Boluses: 2.3 Target: 115 Deviation: 15 BGI: -8.46", 
+      "tick": "+1"
     }
   }
 }
