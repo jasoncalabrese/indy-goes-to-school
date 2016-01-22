@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-22T02:01:51.000Z", 
+      "timestamp": "2016-01-22T02:05:42.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 143.55, 
-    "clock": "2016-01-21T18:00:50-08:00"
+    "reservoir": 143.475, 
+    "clock": "2016-01-21T18:04:37-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 98, 
+      "bg": 101, 
       "temp": "absolute", 
-      "snoozeBG": 129, 
-      "timestamp": "2016-01-22T02:00:03.000Z", 
-      "reason": "Eventual BG 129>=120, temp 0.75 >~ req 0.811U/hr", 
-      "eventualBG": 129, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 5 BGI: 1.17", 
-      "tick": "+4"
+      "snoozeBG": 132, 
+      "timestamp": "2016-01-22T02:04:31.000Z", 
+      "rate": 0.9, 
+      "reason": "Eventual BG 132>=120, temp 0.75<0.878U/hr", 
+      "eventualBG": 132, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 7 BGI: 1.31", 
+      "tick": "+3"
     }, 
     "iob": {
-      "timestamp": "2016-01-22T02:00:03.000Z", 
+      "timestamp": "2016-01-22T02:04:31.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.286, 
-      "iob": -0.286, 
-      "activity": -0.0026
+      "basaliob": -0.268, 
+      "iob": -0.268, 
+      "activity": -0.0029
     }, 
     "enacted": {
-      "bg": 94, 
+      "bg": 101, 
       "temp": "absolute", 
-      "snoozeBG": 127, 
+      "snoozeBG": 132, 
       "recieved": true, 
-      "reason": "Eventual BG 127>=120, no temp, setting 0.767U/hr", 
-      "rate": 0.75, 
-      "eventualBG": 127, 
-      "timestamp": "2016-01-22T01:54:54.000Z", 
+      "reason": "Eventual BG 132>=120, temp 0.75<0.878U/hr", 
+      "rate": 0.9, 
+      "eventualBG": 132, 
+      "timestamp": "2016-01-22T02:04:49.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 2 BGI: 1.03", 
-      "tick": "+4"
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 7 BGI: 1.31", 
+      "tick": "+3"
     }
   }
 }
