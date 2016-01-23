@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-23T22:58:00.000Z", 
+      "timestamp": "2016-01-23T23:01:52.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 137.45, 
-    "clock": "2016-01-23T14:56:38-08:00"
+    "reservoir": 137.425, 
+    "clock": "2016-01-23T15:00:38-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 102, 
+      "bg": 97, 
       "temp": "absolute", 
-      "snoozeBG": 126, 
-      "timestamp": "2016-01-23T22:55:35.000Z", 
-      "reason": "Eventual BG 85<120, bolus snooze: eventual BG range 85-126", 
-      "eventualBG": 85, 
-      "mealAssist": "Off: Carbs: 36 Boluses: 0.7 Target: 127.5 Deviation: -8 BGI: 0.36", 
-      "tick": -2
+      "snoozeBG": 115, 
+      "timestamp": "2016-01-23T23:00:31.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 77<120, setting -0.056U/hr", 
+      "eventualBG": 77, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 36 Boluses: 0.7 Target: 127.5 Deviation: -16 BGI: 0.27", 
+      "tick": -5
     }, 
     "iob": {
-      "timestamp": "2016-01-23T22:55:35.000Z", 
-      "bolussnooze": 0.307, 
-      "basaliob": -0.272, 
-      "iob": 0.096, 
-      "activity": -0.0008
+      "timestamp": "2016-01-23T23:00:31.000Z", 
+      "bolussnooze": 0.283, 
+      "basaliob": -0.306, 
+      "iob": 0.049, 
+      "activity": -0.0006
     }, 
     "enacted": {
-      "bg": 102, 
+      "bg": 97, 
       "temp": "absolute", 
-      "snoozeBG": 99, 
+      "snoozeBG": 115, 
       "recieved": true, 
-      "reason": "Eventual BG 99<120, setting -0.767U/hr", 
+      "reason": "Eventual BG 77<120, setting -0.056U/hr", 
       "rate": 0, 
-      "eventualBG": 99, 
-      "timestamp": "2016-01-23T22:30:05.000Z", 
+      "eventualBG": 77, 
+      "timestamp": "2016-01-23T23:00:49.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 0.35 Target: 127.5 Deviation: -15 BGI: 0.81", 
-      "tick": -2
+      "mealAssist": "Off: Carbs: 36 Boluses: 0.7 Target: 127.5 Deviation: -16 BGI: 0.27", 
+      "tick": -5
     }
   }
 }
