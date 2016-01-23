@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-23T00:11:33.000Z", 
+      "timestamp": "2016-01-23T00:14:26.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 120.35, 
-    "clock": "2016-01-22T16:10:58-08:00"
+    "reservoir": 120.2, 
+    "clock": "2016-01-22T16:13:50-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 122, 
       "temp": "absolute", 
-      "snoozeBG": 122, 
-      "timestamp": "2016-01-23T00:09:51.000Z", 
-      "reason": "Eventual BG 122>=120, temp 1.05 >~ req 0.656U/hr", 
-      "eventualBG": 122, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 0.95 Target: 115 Deviation: 9 BGI: -0.05", 
+      "snoozeBG": 117, 
+      "timestamp": "2016-01-23T00:13:48.000Z", 
+      "rate": 0, 
+      "reason": "117 is in range. No temp required; cancel", 
+      "eventualBG": 117, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 18 Boluses: 0.95 Target: 115 Deviation: 9 BGI: 0", 
       "tick": "+0"
     }, 
     "iob": {
-      "timestamp": "2016-01-23T00:09:51.000Z", 
+      "timestamp": "2016-01-23T00:13:48.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.063, 
-      "iob": 0.103, 
-      "activity": 0.0001
+      "basaliob": 0.132, 
+      "iob": 0.153, 
+      "activity": 0
     }, 
     "enacted": {
       "bg": 122, 
       "temp": "absolute", 
-      "snoozeBG": 125, 
+      "snoozeBG": 117, 
       "recieved": true, 
-      "reason": "Eventual BG 137>=120, temp 0.925<1.056U/hr", 
-      "rate": 1.05, 
-      "eventualBG": 137, 
-      "timestamp": "2016-01-23T00:04:43.000Z", 
-      "duration": 30, 
-      "mealAssist": "On: Carbs: 18 Boluses: 0.95 Target: 100 Deviation: 12 BGI: -0.09", 
-      "tick": "+4"
+      "reason": "117 is in range. No temp required; cancel", 
+      "rate": 0, 
+      "eventualBG": 117, 
+      "timestamp": "2016-01-23T00:13:53.000Z", 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 18 Boluses: 0.95 Target: 115 Deviation: 9 BGI: 0", 
+      "tick": "+0"
     }
   }
 }
