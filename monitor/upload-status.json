@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-23T20:37:57.000Z", 
+      "timestamp": "2016-01-23T20:41:40.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 138.35, 
-    "clock": "2016-01-23T12:36:38-08:00"
+    "clock": "2016-01-23T12:40:38-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 116, 
+      "bg": 108, 
       "temp": "absolute", 
-      "snoozeBG": 122, 
-      "timestamp": "2016-01-23T20:36:34.000Z", 
-      "reason": "Eventual BG 75<120, bolus snooze: eventual BG range 75-122", 
-      "eventualBG": 75, 
-      "mealAssist": "Off: Carbs: 46 Boluses: 0.65 Target: 127.5 Deviation: -13 BGI: -0.09", 
-      "tick": -4
+      "snoozeBG": 104, 
+      "timestamp": "2016-01-23T20:40:35.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 57<120, setting -0.544U/hr", 
+      "eventualBG": 57, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 46 Boluses: 0.65 Target: 127.5 Deviation: -23 BGI: -0.18", 
+      "tick": -8
     }, 
     "iob": {
-      "timestamp": "2016-01-23T20:36:34.000Z", 
-      "bolussnooze": 0.35, 
-      "basaliob": -0.084, 
-      "iob": 0.316, 
-      "activity": 0.0002
+      "timestamp": "2016-01-23T20:40:35.000Z", 
+      "bolussnooze": 0.349, 
+      "basaliob": -0.082, 
+      "iob": 0.315, 
+      "activity": 0.0004
     }, 
     "enacted": {
-      "bg": 120, 
+      "bg": 108, 
       "temp": "absolute", 
-      "snoozeBG": 106, 
+      "snoozeBG": 104, 
       "recieved": true, 
-      "reason": "Eventual BG 106<120, setting -0.456U/hr", 
+      "reason": "Eventual BG 57<120, setting -0.544U/hr", 
       "rate": 0, 
-      "eventualBG": 106, 
-      "timestamp": "2016-01-23T20:34:26.000Z", 
+      "eventualBG": 57, 
+      "timestamp": "2016-01-23T20:40:54.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 28 Boluses: 0.3 Target: 127.5 Deviation: -12 BGI: -0.05", 
-      "tick": "+0"
+      "mealAssist": "Off: Carbs: 46 Boluses: 0.65 Target: 127.5 Deviation: -23 BGI: -0.18", 
+      "tick": -8
     }
   }
 }
