@@ -1,5 +1,16 @@
 [
   {
+    "_type": "BasalProfileStart", 
+    "offset": 70200000, 
+    "_description": "BasalProfileStart 2016-01-23T23:44:04 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-01-23T23:44:04", 
+    "_body": "271c00", 
+    "profile_index": 8, 
+    "_head": "7b08", 
+    "rate": 0.7, 
+    "_date": "046c171710"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-01-23T23:14:03 head[2], body[0] op[0x16]", 
@@ -926,67 +937,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "144f125710"
-  }, 
-  {
-    "programmed": 0.8, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-01-23T17:21:09 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-01-23T17:21:09", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 0.25, 
-            "age": 33
-          }, 
-          {
-            "amount": 0.05, 
-            "age": 113
-          }, 
-          {
-            "amount": 0.35, 
-            "age": 173
-          }, 
-          {
-            "amount": 0.35, 
-            "age": 293
-          }, 
-          {
-            "amount": 0.3, 
-            "age": 413
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c110a21c00271c00eadc00e25d00c9dd0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100200020000c00", 
-    "amount": 0.8, 
-    "unabsorbed": 0.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "0955311710"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "bg_target_high": 135, 
-    "_description": "BolusWizard 2016-01-23T17:21:09 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-01-23T17:21:09", 
-    "_body": "285000a05a78000064000000006487", 
-    "_head": "5b00", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "_date": "0955111710", 
-    "bolus_estimate": 2.5, 
-    "bg_target_low": 120, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 2.5, 
-    "carb_input": 40, 
-    "sensitivity": 90
   }
 ]
