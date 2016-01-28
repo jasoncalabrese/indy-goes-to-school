@@ -1,5 +1,78 @@
 [
   {
+    "programmed": 0.3, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-01-28T12:56:12 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-01-28T12:56:12", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 2.15, 
+            "age": 68
+          }, 
+          {
+            "amount": 1.1, 
+            "age": 178
+          }, 
+          {
+            "amount": 2.0, 
+            "age": 378
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0b5644c02cb2c0507ad0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "01000c000c003a00", 
+    "amount": 0.3, 
+    "unabsorbed": 1.45, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "0c782c1c10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 115, 
+    "bg_target_high": 120, 
+    "_description": "BolusWizard 2016-01-28T12:56:12 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-01-28T12:56:12", 
+    "_body": "0f5000a05a6e00002400003a002478", 
+    "_head": "5b73", 
+    "unabsorbed_insulin_total": 1.45, 
+    "correction_estimate": 0.0, 
+    "_date": "0c780c1c10", 
+    "bolus_estimate": 0.9, 
+    "bg_target_low": 110, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 0.9, 
+    "carb_input": 15, 
+    "sensitivity": 90
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-01-28T12:52:25 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-01-28T12:52:25", 
+    "_body": "c23647", 
+    "_head": "3f0e", 
+    "amount": 115, 
+    "_date": "19746c7c10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-01-28T12:52:25 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-01-28T12:52:25", 
+    "_body": "", 
+    "_head": "0a73", 
+    "amount": 115, 
+    "_date": "19742c7c10"
+  }, 
+  {
     "_type": "BasalProfileStart", 
     "offset": 39600000, 
     "_description": "BasalProfileStart 2016-01-28T12:50:39 head[2], body[3] op[0x7b]", 
