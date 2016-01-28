@@ -1,0 +1,49 @@
+{
+  "device": "openaps://indy2", 
+  "pump": {
+    "battery": {
+      "status": "normal", 
+      "voltage": 1.54
+    }, 
+    "status": {
+      "status": "normal", 
+      "timestamp": "2016-01-28T16:43:41.000Z", 
+      "bolusing": false, 
+      "suspended": false
+    }, 
+    "reservoir": 84.225, 
+    "clock": "2016-01-28T08:42:39-08:00"
+  }, 
+  "openaps": {
+    "suggested": {
+      "bg": 166, 
+      "temp": "absolute", 
+      "snoozeBG": 146, 
+      "timestamp": "2016-01-28T16:42:09.000Z", 
+      "reason": "Eventual BG 202>=120, temp 1.55 >~ req 1.572U/hr", 
+      "eventualBG": 202, 
+      "mealAssist": "On: Carbs: 24 Boluses: 2 Target: 100 Deviation: 36 BGI: -5.62", 
+      "tick": "+5"
+    }, 
+    "iob": {
+      "timestamp": "2016-01-28T16:42:08.000Z", 
+      "bolussnooze": 0, 
+      "basaliob": 0.136, 
+      "iob": 0.626, 
+      "activity": 0.0125
+    }, 
+    "enacted": {
+      "bg": 139, 
+      "temp": "absolute", 
+      "snoozeBG": 144, 
+      "recieved": true, 
+      "reason": "Eventual BG 202>=120, temp 1.425<1.528U/hr", 
+      "rate": 1.55, 
+      "eventualBG": 202, 
+      "timestamp": "2016-01-28T16:21:28.000Z", 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 24 Boluses: 2 Target: 100 Deviation: 58 BGI: -7.56", 
+      "tick": "+6"
+    }
+  }
+}
