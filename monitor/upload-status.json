@@ -7,43 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-01T19:51:43.000Z", 
+      "timestamp": "2016-02-01T19:56:42.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 118.1, 
-    "clock": "2016-02-01T11:50:41-08:00"
+    "clock": "2016-02-01T11:55:41-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 78, 
+      "bg": 81, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2016-02-01T19:50:27.000Z", 
-      "reason": "BG 78<80, delta 1>0; no high-temp to cancel", 
-      "eventualBG": 101, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 1.65 Target: 115 Deviation: 10 BGI: -3.88", 
-      "tick": "+1"
+      "snoozeBG": 109, 
+      "timestamp": "2016-02-01T19:55:33.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 109<110, but Delta +3 > Exp. Delta -3.2; cancel", 
+      "eventualBG": 109, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 18 Boluses: 1.65 Target: 115 Deviation: 13 BGI: -3.36", 
+      "tick": "+3"
     }, 
     "iob": {
-      "timestamp": "2016-02-01T19:50:26.000Z", 
+      "timestamp": "2016-02-01T19:55:33.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.63, 
-      "iob": -0.157, 
-      "activity": 0.0097
+      "basaliob": -0.613, 
+      "iob": -0.19, 
+      "activity": 0.0084
     }, 
     "enacted": {
-      "bg": 77, 
+      "bg": 81, 
       "temp": "absolute", 
-      "snoozeBG": 91, 
+      "snoozeBG": 109, 
       "recieved": true, 
-      "reason": "BG 77<80", 
+      "reason": "Eventual BG 109<110, but Delta +3 > Exp. Delta -3.2; cancel", 
       "rate": 0, 
-      "eventualBG": 91, 
-      "timestamp": "2016-02-01T19:46:20.000Z", 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 18 Boluses: 1.65 Target: 115 Deviation: 10 BGI: -4.68", 
-      "tick": -1
+      "eventualBG": 109, 
+      "timestamp": "2016-02-01T19:55:51.000Z", 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 18 Boluses: 1.65 Target: 115 Deviation: 13 BGI: -3.36", 
+      "tick": "+3"
     }
   }
 }
