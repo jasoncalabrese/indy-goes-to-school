@@ -7,45 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-01T06:42:44.000Z", 
+      "timestamp": "2016-02-01T06:46:40.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 127.625, 
-    "clock": "2016-01-31T22:41:40-08:00"
+    "clock": "2016-01-31T22:45:41-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 117, 
+      "bg": 109, 
       "temp": "absolute", 
-      "snoozeBG": 73, 
-      "timestamp": "2016-02-01T06:40:52.000Z", 
+      "snoozeBG": 68, 
+      "timestamp": "2016-02-01T06:45:21.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 69<110, setting -1.4U/hr", 
-      "eventualBG": 69, 
+      "reason": "Eventual BG 67<110, setting -1.65U/hr", 
+      "eventualBG": 67, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.65 Target: 115 Deviation: -12 BGI: -5.92", 
-      "tick": -9
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.65 Target: 115 Deviation: -17 BGI: -5.52", 
+      "tick": -8
     }, 
     "iob": {
-      "timestamp": "2016-02-01T06:40:52.000Z", 
-      "bolussnooze": 0.032, 
-      "basaliob": 0.075, 
-      "iob": 0.447, 
-      "activity": 0.0148
+      "timestamp": "2016-02-01T06:45:20.000Z", 
+      "bolussnooze": 0.012, 
+      "basaliob": -0.017, 
+      "iob": 0.314, 
+      "activity": 0.0138
     }, 
     "enacted": {
-      "bg": 117, 
+      "bg": 109, 
       "temp": "absolute", 
-      "snoozeBG": 73, 
+      "snoozeBG": 68, 
       "recieved": true, 
-      "reason": "Eventual BG 69<110, setting -1.4U/hr", 
+      "reason": "Eventual BG 67<110, setting -1.65U/hr", 
       "rate": 0, 
-      "eventualBG": 69, 
-      "timestamp": "2016-02-01T06:41:10.000Z", 
+      "eventualBG": 67, 
+      "timestamp": "2016-02-01T06:45:39.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.65 Target: 115 Deviation: -12 BGI: -5.92", 
-      "tick": -9
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.65 Target: 115 Deviation: -17 BGI: -5.52", 
+      "tick": -8
     }
   }
 }
