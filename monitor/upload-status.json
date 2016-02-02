@@ -7,43 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-02T06:37:38.000Z", 
+      "timestamp": "2016-02-02T06:41:44.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 103.9, 
-    "clock": "2016-02-01T22:36:41-08:00"
+    "reservoir": 103.8, 
+    "clock": "2016-02-01T22:40:41-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 124, 
+      "bg": 126, 
       "temp": "absolute", 
-      "snoozeBG": 134, 
-      "timestamp": "2016-02-02T06:35:54.000Z", 
-      "reason": "Eventual BG 149>=120, temp 1.85 >~ req 1.55U/hr", 
-      "eventualBG": 149, 
-      "mealAssist": "On: Carbs: 54 Boluses: 2.5 Target: 100 Deviation: 15 BGI: 0.88", 
-      "tick": "+6"
+      "snoozeBG": 121, 
+      "timestamp": "2016-02-02T06:40:31.000Z", 
+      "rate": 0.85, 
+      "reason": "19m@1.150 = 0.364 > req 0.075+0.2U", 
+      "eventualBG": 121, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 10 BGI: 1.28", 
+      "tick": "+2"
     }, 
     "iob": {
-      "timestamp": "2016-02-02T06:35:54.000Z", 
+      "timestamp": "2016-02-02T06:40:31.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.065, 
-      "iob": 0.065, 
-      "activity": -0.0022
+      "basaliob": 0.185, 
+      "iob": 0.185, 
+      "activity": -0.0032
     }, 
     "enacted": {
-      "bg": 112, 
+      "bg": 126, 
       "temp": "absolute", 
-      "snoozeBG": 145, 
+      "snoozeBG": 121, 
       "recieved": true, 
-      "reason": "Eventual BG 162>=120, temp 1.5<1.825U/hr", 
-      "rate": 1.85, 
-      "eventualBG": 162, 
-      "timestamp": "2016-02-02T06:25:48.000Z", 
+      "reason": "19m@1.150 = 0.364 > req 0.075+0.2U", 
+      "rate": 0.85, 
+      "eventualBG": 121, 
+      "timestamp": "2016-02-02T06:40:50.000Z", 
       "duration": 30, 
-      "mealAssist": "On: Carbs: 54 Boluses: 2.5 Target: 100 Deviation: 17 BGI: -1.04", 
-      "tick": "+6"
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 10 BGI: 1.28", 
+      "tick": "+2"
     }
   }
 }
