@@ -1,6 +1,71 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-02-02T06:45:31 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-02-02T06:45:31-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "1fad064210"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-02-02T06:45:31 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-02-02T06:45:31-08:00", 
+    "_body": "00", 
+    "_head": "3350", 
+    "rate": 2.0, 
+    "_date": "1fad064210"
+  }, 
+  {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-02-02T06:43:54 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-02-02T06:43:54-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c050223c0", 
+        "data": [
+          {
+            "amount": 0.05, 
+            "age": 35
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 2.4, 
+    "duration": 0, 
+    "amount": 2.4, 
+    "unabsorbed": 0.05, 
+    "_head": "0100600060000200", 
+    "type": "normal", 
+    "_date": "36ab260210"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_description": "BolusWizard 2016-02-02T06:43:54 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-02-02T06:43:54-08:00", 
+    "_body": "1850006e506e000056000000005678", 
+    "carb_input": 24, 
+    "bg_target_high": 120, 
+    "sensitivity": 80, 
+    "carb_ratio": 11.0, 
+    "food_estimate": 2.15, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 110, 
+    "_head": "5b00", 
+    "bolus_estimate": 2.15, 
+    "_date": "36ab060210"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-02-02T06:40:45 head[2], body[0] op[0x16]", 
     "timestamp": "2016-02-02T06:40:45-08:00", 
     "_body": "", 
