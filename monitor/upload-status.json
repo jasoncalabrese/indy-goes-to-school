@@ -7,45 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-02T05:07:42.000Z", 
+      "timestamp": "2016-02-02T05:11:43.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 104.925, 
-    "clock": "2016-02-01T21:06:41-08:00"
+    "clock": "2016-02-01T21:10:41-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 119, 
+      "bg": 112, 
       "temp": "absolute", 
-      "snoozeBG": 46, 
-      "timestamp": "2016-02-02T05:05:55.000Z", 
+      "snoozeBG": 43, 
+      "timestamp": "2016-02-02T05:10:20.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 46<110, Snooze BG 46, setting -2.44U/hr", 
-      "eventualBG": 46, 
+      "reason": "Eventual BG 43<110, Snooze BG 43, setting -2.06U/hr", 
+      "eventualBG": 43, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 64 Boluses: 3.5 Target: 115 Deviation: 24 BGI: -11.8", 
-      "tick": -9
+      "mealAssist": "Off: Carbs: 64 Boluses: 3.5 Target: 115 Deviation: 13 BGI: -11.12", 
+      "tick": -7
     }, 
     "iob": {
-      "timestamp": "2016-02-02T05:05:54.000Z", 
+      "timestamp": "2016-02-02T05:10:20.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.13, 
-      "iob": 1.215, 
-      "activity": 0.0295
+      "basaliob": 0.064, 
+      "iob": 1.026, 
+      "activity": 0.0278
     }, 
     "enacted": {
-      "bg": 119, 
+      "bg": 112, 
       "temp": "absolute", 
-      "snoozeBG": 46, 
+      "snoozeBG": 43, 
       "recieved": true, 
-      "reason": "Eventual BG 46<110, Snooze BG 46, setting -2.44U/hr", 
+      "reason": "Eventual BG 43<110, Snooze BG 43, setting -2.06U/hr", 
       "rate": 0, 
-      "eventualBG": 46, 
-      "timestamp": "2016-02-02T05:06:13.000Z", 
+      "eventualBG": 43, 
+      "timestamp": "2016-02-02T05:10:39.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 64 Boluses: 3.5 Target: 115 Deviation: 24 BGI: -11.8", 
-      "tick": -9
+      "mealAssist": "Off: Carbs: 64 Boluses: 3.5 Target: 115 Deviation: 13 BGI: -11.12", 
+      "tick": -7
     }
   }
 }
