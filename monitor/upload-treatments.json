@@ -1,1 +1,123 @@
-[]
+[
+  {
+    "duration": "30",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2016-02-03T10:05:12 head[2], body[0] op[0x16]",
+      "timestamp": "2016-02-03T10:05:12-08:00",
+      "_body": "",
+      "_head": "1601",
+      "duration (min)": 30,
+      "_date": "0c850a4310"
+    },
+    "timestamp": "2016-02-03T10:05:12-08:00",
+    "absolute": "0",
+    "rate": 0,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2016-02-03T10:05:12 head[2], body[1] op[0x33]",
+      "timestamp": "2016-02-03T10:05:12-08:00",
+      "_body": "00",
+      "_head": "3300",
+      "rate": 0,
+      "_date": "0c850a4310"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2016-02-03T10:05:12-08:00",
+    "enteredBy": "openaps://medtronic/723"
+  },
+  {
+    "duration": "0",
+    "bolus": {
+      "_type": "Bolus",
+      "_description": "Bolus 2016-02-03T10:02:35 head[8], body[0] op[0x01]",
+      "timestamp": "2016-02-03T10:02:35-08:00",
+      "_body": "",
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus",
+          "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]",
+          "_body": "",
+          "_head": "5c0556c2c0",
+          "data": [
+            {
+              "amount": 2.15,
+              "age": 194
+            }
+          ],
+          "_date": ""
+        }
+      ],
+      "programmed": 1.35,
+      "duration": 0,
+      "amount": 1.35,
+      "unabsorbed": 0,
+      "_head": "0100360036000000",
+      "type": "normal",
+      "_date": "23822a0310"
+    },
+    "timestamp": "2016-02-03T10:02:35-08:00",
+    "created_at": "2016-02-03T10:02:35-08:00",
+    "carbs": "18",
+    "ratio": "16",
+    "bg": "140",
+    "glucose": "140",
+    "glucoseType": "BolusWizard",
+    "wizard": {
+      "_type": "BolusWizard",
+      "bg": 140,
+      "_description": "BolusWizard 2016-02-03T10:02:35 head[2], body[15] op[0x5b]",
+      "timestamp": "2016-02-03T10:02:35-08:00",
+      "_body": "125000a0506e0a002c000000003678",
+      "carb_input": 18,
+      "bg_target_high": 120,
+      "sensitivity": 80,
+      "carb_ratio": 16,
+      "food_estimate": 1.1,
+      "unabsorbed_insulin_total": 0,
+      "correction_estimate": 0.25,
+      "bg_target_low": 110,
+      "_head": "5b8c",
+      "bolus_estimate": 1.35,
+      "_date": "23820a0310"
+    },
+    "eventType": "Meal Bolus",
+    "insulin": "1.35",
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 1.35\nDelivered bolus 1.35\nPercent delivered:  100%\nFood estimate 1.1\nCorrection estimate 0.25\nBolus estimate 1.35\nTarget low 110\nTarget high 120\nHypothetical glucose delta -108\nGlucose was: 140",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus",
+    "enteredBy": "openaps://medtronic/723"
+  },
+  {
+    "_type": "BGReceived",
+    "_description": "BGReceived 2016-02-03T10:00:57 head[2], body[3] op[0x3f]",
+    "timestamp": "2016-02-03T10:00:57-08:00",
+    "_body": "c23647",
+    "_head": "3f11",
+    "amount": 140,
+    "link": "c23647",
+    "_date": "39808a6310",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/BGReceived",
+    "created_at": "2016-02-03T10:00:57-08:00",
+    "enteredBy": "openaps://medtronic/723",
+    "eventType": "Note",
+    "notes": "BGReceived 723 "
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-02-03T10:00:57 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-02-03T10:00:57-08:00",
+    "_body": "",
+    "_head": "0a8c",
+    "amount": 140,
+    "_date": "39802a6310",
+    "eventType": "<none>",
+    "glucose": 140,
+    "glucoseType": "Finger",
+    "notes": "Pump received finger stick.",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+    "created_at": "2016-02-03T10:00:57-08:00",
+    "enteredBy": "openaps://medtronic/723"
+  }
+]
