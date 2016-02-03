@@ -7,43 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-03T11:21:38.000Z", 
+      "timestamp": "2016-02-03T11:26:47.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 77.2, 
-    "clock": "2016-02-03T03:20:42-08:00"
+    "reservoir": 77.15, 
+    "clock": "2016-02-03T03:25:42-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 130, 
       "temp": "absolute", 
-      "snoozeBG": 126, 
-      "timestamp": "2016-02-03T11:20:24.000Z", 
-      "reason": "Eventual BG 126>=120, temp 0.9 >~ req 0.775U/hr", 
-      "eventualBG": 126, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.35 Target: 115 Deviation: 4 BGI: -0.2", 
-      "tick": "+1"
+      "snoozeBG": 120, 
+      "timestamp": "2016-02-03T11:25:28.000Z", 
+      "rate": 0.65, 
+      "reason": "Eventual BG 120>=120, temp 0.9<0.625U/hr", 
+      "eventualBG": 120, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.35 Target: 115 Deviation: 2 BGI: -0.16", 
+      "tick": "+0"
     }, 
     "iob": {
-      "timestamp": "2016-02-03T11:20:23.000Z", 
+      "timestamp": "2016-02-03T11:25:27.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.086, 
-      "iob": 0.099, 
-      "activity": 0.0005
+      "basaliob": 0.138, 
+      "iob": 0.148, 
+      "activity": 0.0004
     }, 
     "enacted": {
-      "bg": 124, 
+      "bg": 130, 
       "temp": "absolute", 
-      "snoozeBG": 130, 
+      "snoozeBG": 120, 
       "recieved": true, 
-      "reason": "Eventual BG 130>=120, temp 0.75<0.875U/hr", 
-      "rate": 0.9, 
-      "eventualBG": 130, 
-      "timestamp": "2016-02-03T10:55:25.000Z", 
+      "reason": "Eventual BG 120>=120, temp 0.9<0.625U/hr", 
+      "rate": 0.65, 
+      "eventualBG": 120, 
+      "timestamp": "2016-02-03T11:25:46.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.35 Target: 115 Deviation: 8 BGI: -0.72", 
-      "tick": "+2"
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.35 Target: 115 Deviation: 2 BGI: -0.16", 
+      "tick": "+0"
     }
   }
 }
