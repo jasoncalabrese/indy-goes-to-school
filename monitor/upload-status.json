@@ -7,43 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-03T16:06:51.000Z", 
+      "timestamp": "2016-02-03T16:11:48.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 73.25, 
-    "clock": "2016-02-03T08:05:41-08:00"
+    "clock": "2016-02-03T08:10:41-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 90, 
+      "bg": 89, 
       "temp": "absolute", 
-      "snoozeBG": 45, 
-      "timestamp": "2016-02-03T16:05:23.000Z", 
-      "reason": "Eventual BG 32<110, Snooze BG 45, temp 0 ~< req 0.37U/hr", 
-      "eventualBG": 32, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.15 Target: 115 Deviation: 26 BGI: -9.12", 
-      "tick": "+8"
+      "snoozeBG": 41, 
+      "timestamp": "2016-02-03T16:10:22.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 34<110, Snooze BG 41, setting -0.35U/hr", 
+      "eventualBG": 34, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 24 Boluses: 2.15 Target: 115 Deviation: 22 BGI: -9.12", 
+      "tick": -1
     }, 
     "iob": {
-      "timestamp": "2016-02-03T16:05:23.000Z", 
-      "bolussnooze": 0.109, 
-      "basaliob": -0.189, 
-      "iob": 1.049, 
+      "timestamp": "2016-02-03T16:10:21.000Z", 
+      "bolussnooze": 0.06, 
+      "basaliob": -0.187, 
+      "iob": 0.957, 
       "activity": 0.0228
     }, 
     "enacted": {
-      "bg": 82, 
+      "bg": 89, 
       "temp": "absolute", 
-      "snoozeBG": 27, 
+      "snoozeBG": 41, 
       "recieved": true, 
-      "reason": "Eventual BG 2<110, setting -3.85U/hr", 
+      "reason": "Eventual BG 34<110, Snooze BG 41, setting -0.35U/hr", 
       "rate": 0, 
-      "eventualBG": 2, 
-      "timestamp": "2016-02-03T16:00:59.000Z", 
+      "eventualBG": 34, 
+      "timestamp": "2016-02-03T16:10:48.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.15 Target: 115 Deviation: 19 BGI: -8.36", 
-      "tick": -12
+      "mealAssist": "Off: Carbs: 24 Boluses: 2.15 Target: 115 Deviation: 22 BGI: -9.12", 
+      "tick": -1
     }
   }
 }
