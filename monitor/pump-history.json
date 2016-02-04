@@ -1,5 +1,95 @@
 [
   {
+    "programmed": 0.6, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-02-03T17:50:12 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-02-03T17:50:12", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[23], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.2, 
+            "age": 42
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 142
+          }, 
+          {
+            "amount": 1.1, 
+            "age": 162
+          }, 
+          {
+            "amount": 0.05, 
+            "age": 172
+          }, 
+          {
+            "amount": 0.05, 
+            "age": 192
+          }, 
+          {
+            "amount": 2.15, 
+            "age": 382
+          }, 
+          {
+            "amount": 1.35, 
+            "age": 472
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c17082ac0188ec02ca2c002acc002c0c0567ed036d8d0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100180018000e00", 
+    "amount": 0.6, 
+    "unabsorbed": 0.35, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "0cb2310310"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 196, 
+    "bg_target_high": 120, 
+    "_description": "BolusWizard 2016-02-03T17:50:12 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-02-03T17:50:12", 
+    "_body": "005000a0506e26000000000e001878", 
+    "_head": "5bc4", 
+    "unabsorbed_insulin_total": 0.35, 
+    "correction_estimate": 0.95, 
+    "_date": "0cb2110310", 
+    "bolus_estimate": 0.6, 
+    "bg_target_low": 110, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-02-03T17:50:09 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-02-03T17:50:09", 
+    "_body": "", 
+    "_head": "0ac4", 
+    "amount": 196, 
+    "_date": "09b2310310"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "fixed", 
+    "_description": "Prime 2016-02-03T17:49:07 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-02-03T17:49:07", 
+    "_body": "", 
+    "fixed": 0.7, 
+    "_head": "0300070007", 
+    "amount": 0.7, 
+    "_date": "07b1110310"
+  }, 
+  {
     "_type": "Prime", 
     "type": "manual", 
     "_description": "Prime 2016-02-03T17:40:18 head[5], body[0] op[0x03]", 
