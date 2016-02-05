@@ -7,45 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-05T08:06:42.000Z", 
+      "timestamp": "2016-02-05T08:14:55.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 82.55, 
-    "clock": "2016-02-05T00:05:42-08:00"
+    "clock": "2016-02-05T00:13:42-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 121, 
+      "bg": 123, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2016-02-05T08:08:27.000Z", 
+      "snoozeBG": 105, 
+      "timestamp": "2016-02-05T08:13:38.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 101<110, setting -0.3U/hr", 
-      "eventualBG": 101, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.6 Target: 115 Deviation: 4 BGI: -1.16", 
-      "tick": "+0"
+      "reason": "Eventual BG 105<110, but Delta +2 > Exp. Delta -0.9; cancel", 
+      "eventualBG": 105, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.6 Target: 115 Deviation: 5 BGI: -1.16", 
+      "tick": "+2"
     }, 
     "iob": {
-      "timestamp": "2016-02-05T08:08:26.000Z", 
+      "timestamp": "2016-02-05T08:13:37.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.303, 
-      "iob": 0.304, 
+      "basaliob": 0.286, 
+      "iob": 0.286, 
       "activity": 0.0029
     }, 
     "enacted": {
-      "bg": 121, 
+      "bg": 123, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
+      "snoozeBG": 105, 
       "recieved": true, 
-      "reason": "Eventual BG 101<110, setting -0.3U/hr", 
+      "reason": "Eventual BG 105<110, but Delta +2 > Exp. Delta -0.9; cancel", 
       "rate": 0, 
-      "eventualBG": 101, 
-      "timestamp": "2016-02-05T08:08:44.000Z", 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.6 Target: 115 Deviation: 4 BGI: -1.16", 
-      "tick": "+0"
+      "eventualBG": 105, 
+      "timestamp": "2016-02-05T08:13:43.000Z", 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.6 Target: 115 Deviation: 5 BGI: -1.16", 
+      "tick": "+2"
     }
   }
 }
