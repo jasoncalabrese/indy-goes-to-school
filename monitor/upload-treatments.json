@@ -3,29 +3,60 @@
     "duration": "30",
     "raw_duration": {
       "_type": "TempBasalDuration",
-      "_description": "TempBasalDuration 2016-02-06T13:43:31 head[2], body[0] op[0x16]",
-      "timestamp": "2016-02-06T13:43:31-08:00",
+      "_description": "TempBasalDuration 2016-02-06T13:49:06 head[2], body[0] op[0x16]",
+      "timestamp": "2016-02-06T13:49:06-08:00",
       "_body": "",
       "_head": "1601",
       "duration (min)": 30,
-      "_date": "1fab0d4610"
+      "_date": "06b10d4610"
     },
-    "timestamp": "2016-02-06T13:43:31-08:00",
+    "timestamp": "2016-02-06T13:49:06-08:00",
     "absolute": "0",
     "rate": 0,
     "raw_rate": {
       "_type": "TempBasal",
       "temp": "absolute",
-      "_description": "TempBasal 2016-02-06T13:43:31 head[2], body[1] op[0x33]",
-      "timestamp": "2016-02-06T13:43:31-08:00",
+      "_description": "TempBasal 2016-02-06T13:49:06 head[2], body[1] op[0x33]",
+      "timestamp": "2016-02-06T13:49:06-08:00",
       "_body": "00",
       "_head": "3300",
       "rate": 0,
-      "_date": "1fab0d4610"
+      "_date": "06b10d4610"
     },
     "eventType": "Temp Basal",
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-    "created_at": "2016-02-06T13:43:31-08:00",
+    "created_at": "2016-02-06T13:49:06-08:00",
+    "enteredBy": "openaps://medtronic/723"
+  },
+  {
+    "_type": "BGReceived",
+    "_description": "BGReceived 2016-02-06T13:48:45 head[2], body[3] op[0x3f]",
+    "timestamp": "2016-02-06T13:48:45-08:00",
+    "_body": "c23647",
+    "_head": "3f0d",
+    "amount": 107,
+    "link": "c23647",
+    "_date": "2db06d6610",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/BGReceived",
+    "created_at": "2016-02-06T13:48:45-08:00",
+    "enteredBy": "openaps://medtronic/723",
+    "eventType": "Note",
+    "notes": "BGReceived 723 "
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2016-02-06T13:48:45 head[2], body[0] op[0x0a]",
+    "timestamp": "2016-02-06T13:48:45-08:00",
+    "_body": "",
+    "_head": "0a6b",
+    "amount": 107,
+    "_date": "2db02d6610",
+    "eventType": "<none>",
+    "glucose": 107,
+    "glucoseType": "Finger",
+    "notes": "Pump received finger stick.",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+    "created_at": "2016-02-06T13:48:45-08:00",
     "enteredBy": "openaps://medtronic/723"
   }
 ]
