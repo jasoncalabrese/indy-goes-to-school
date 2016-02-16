@@ -1,5 +1,25 @@
 [
   {
+    "filtered": 153000, 
+    "direction": "Flat", 
+    "noise": 1, 
+    "raw": 132, 
+    "type": "sgv", 
+    "_id": "56c2ba4f07f60885b3447aa5", 
+    "sysTime": "2016-02-15T21:57:08.786-0800", 
+    "dateString": "2016-02-15T21:57:08.786-0800", 
+    "sgv": 125, 
+    "device": "xDrip-DexcomShare", 
+    "xDrip_filtered": 153, 
+    "unfiltered": 161000, 
+    "xDrip_raw": 161, 
+    "date": 1455602228786, 
+    "rssi": 100, 
+    "xDrip_calculated_current_slope": 2.3370414390833457e-05, 
+    "xDrip_age_adjusted_raw_value": 161, 
+    "xDrip_calculated_value": 125
+  }, 
+  {
     "filtered": 156000, 
     "direction": "Flat", 
     "noise": 1, 
@@ -178,25 +198,5 @@
     "xDrip_calculated_current_slope": -1.3405230050504204e-05, 
     "xDrip_age_adjusted_raw_value": 212, 
     "xDrip_calculated_value": 171
-  }, 
-  {
-    "filtered": 243000, 
-    "direction": "SingleDown", 
-    "noise": 1, 
-    "raw": 155, 
-    "type": "sgv", 
-    "_id": "56c2aebc07f60885b3447a8e", 
-    "sysTime": "2016-02-15T21:07:09.532-0800", 
-    "dateString": "2016-02-15T21:07:09.532-0800", 
-    "sgv": 175, 
-    "device": "xDrip-DexcomShare", 
-    "xDrip_filtered": 243, 
-    "unfiltered": 217000, 
-    "xDrip_raw": 217, 
-    "date": 1455599229532, 
-    "rssi": 100, 
-    "xDrip_calculated_current_slope": -5.004554144271287e-05, 
-    "xDrip_age_adjusted_raw_value": 217, 
-    "xDrip_calculated_value": 175
   }
 ]
