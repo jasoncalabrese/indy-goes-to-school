@@ -1,5 +1,24 @@
 [
   {
+    "_type": "BGReceived", 
+    "_description": "BGReceived 2016-02-17T06:46:10 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-02-17T06:46:10-08:00", 
+    "_body": "c23647", 
+    "_head": "3f0a", 
+    "amount": 87, 
+    "link": "c23647", 
+    "_date": "0aaee67110"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-02-17T06:46:10 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-02-17T06:46:10-08:00", 
+    "_body": "", 
+    "_head": "0a57", 
+    "amount": 87, 
+    "_date": "0aae267110"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-02-17T06:45:12 head[2], body[0] op[0x16]", 
     "timestamp": "2016-02-17T06:45:12-08:00", 
