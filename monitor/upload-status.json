@@ -7,46 +7,46 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-17T08:50:28.000Z", 
+      "timestamp": "2016-02-17T08:53:29.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 321.275, 
-    "clock": "2016-02-17T00:50:00-08:00"
+    "reservoir": 82.325, 
+    "clock": "2016-02-17T00:53:01-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 123, 
+      "bg": 120, 
       "temp": "absolute", 
-      "snoozeBG": 106, 
-      "timestamp": "2016-02-17T08:45:24.000Z", 
+      "snoozeBG": 103, 
+      "timestamp": "2016-02-17T08:51:49.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 106<110, setting -0.05U/hr", 
-      "eventualBG": 106, 
+      "reason": "Eventual BG 103<110, setting -0.2U/hr", 
+      "eventualBG": 103, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -2 BGI: -1", 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -4 BGI: -1.28", 
       "tick": -3
     }, 
     "iob": {
       "netbasalinsulin": 0.05, 
-      "timestamp": "2016-02-17T08:45:23.000Z", 
-      "basaliob": 0.19, 
-      "activity": 0.0025, 
+      "timestamp": "2016-02-17T08:51:49.000Z", 
+      "basaliob": 0.161, 
+      "activity": 0.0032, 
       "bolussnooze": 0, 
-      "iob": 0.19
+      "iob": 0.161
     }, 
     "enacted": {
-      "bg": 127, 
+      "bg": 120, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
+      "snoozeBG": 103, 
       "recieved": true, 
-      "reason": "Eventual BG 101<110, setting -0.3U/hr", 
+      "reason": "Eventual BG 103<110, setting -0.2U/hr", 
       "rate": 0, 
-      "eventualBG": 101, 
-      "timestamp": "2016-02-17T08:30:34.000Z", 
+      "eventualBG": 103, 
+      "timestamp": "2016-02-17T08:51:54.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -4 BGI: -0.28", 
-      "tick": "+0"
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -4 BGI: -1.28", 
+      "tick": -3
     }
   }
 }
