@@ -7,46 +7,46 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-02-18T06:21:13.000Z", 
+      "timestamp": "2016-02-18T06:25:15.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 134.575, 
-    "clock": "2016-02-17T22:20:46-08:00"
+    "reservoir": 134.55, 
+    "clock": "2016-02-17T22:24:46-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 170, 
+      "bg": 161, 
       "temp": "absolute", 
-      "snoozeBG": 98, 
-      "timestamp": "2016-02-18T06:19:39.000Z", 
+      "snoozeBG": 94, 
+      "timestamp": "2016-02-18T06:24:26.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 98<110, setting -0.15U/hr", 
-      "eventualBG": 98, 
+      "reason": "Eventual BG 94<110, setting -0.35U/hr", 
+      "eventualBG": 94, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -23 BGI: -3.48", 
-      "tick": -7
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -27 BGI: -3.56", 
+      "tick": -9
     }, 
     "iob": {
       "netbasalinsulin": 0.75, 
-      "timestamp": "2016-02-18T06:19:38.000Z", 
-      "basaliob": 0.61, 
-      "activity": 0.0087, 
+      "timestamp": "2016-02-18T06:24:25.000Z", 
+      "basaliob": 0.506, 
+      "activity": 0.0089, 
       "bolussnooze": 0, 
-      "iob": 0.61
+      "iob": 0.506
     }, 
     "enacted": {
-      "bg": 170, 
+      "bg": 161, 
       "temp": "absolute", 
-      "snoozeBG": 98, 
+      "snoozeBG": 94, 
       "recieved": true, 
-      "reason": "Eventual BG 98<110, setting -0.15U/hr", 
+      "reason": "Eventual BG 94<110, setting -0.35U/hr", 
       "rate": 0, 
-      "eventualBG": 98, 
-      "timestamp": "2016-02-18T06:19:57.000Z", 
+      "eventualBG": 94, 
+      "timestamp": "2016-02-18T06:24:51.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -23 BGI: -3.48", 
-      "tick": -7
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -27 BGI: -3.56", 
+      "tick": -9
     }
   }
 }
