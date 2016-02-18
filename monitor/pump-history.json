@@ -2,6 +2,25 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-02-17T21:48:38 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-02-17T21:48:38", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "26b0155110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-02-17T21:48:38 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-02-17T21:48:38", 
+    "_body": "00", 
+    "_head": "3332", 
+    "rate": 1.25, 
+    "_date": "26b0155110"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-02-17T21:39:28 head[2], body[0] op[0x16]", 
     "timestamp": "2016-02-17T21:39:28", 
     "_body": "", 
@@ -1439,24 +1458,5 @@
     "_head": "0300070007", 
     "amount": 0.7, 
     "_date": "19b10f1110"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "manual", 
-    "_description": "Prime 2016-02-17T15:43:19 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-02-17T15:43:19", 
-    "_body": "", 
-    "fixed": 0.0, 
-    "_head": "030000006c", 
-    "amount": 10.8, 
-    "_date": "13ab2f1110"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2016-02-17T15:42:10 head[2], body[0] op[0x21]", 
-    "timestamp": "2016-02-17T15:42:10", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "0aaa0f1110"
   }
 ]
