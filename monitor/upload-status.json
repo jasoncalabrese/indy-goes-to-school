@@ -7,32 +7,47 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-05T03:22:04.000Z", 
+      "timestamp": "2016-04-05T03:41:26.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 50.05, 
-    "clock": "2016-04-04T20:21:14-07:00"
+    "reservoir": 47.725, 
+    "clock": "2016-04-04T20:40:37-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 120, 
+      "bg": 113, 
       "temp": "absolute", 
-      "snoozeBG": 114, 
-      "timestamp": "2016-04-05T03:22:51.000Z", 
-      "reason": "Eventual BG 114>110 but Avg. Delta -2.00 < Exp. Delta 0.2, temp 0.675 ~ req 0.7U/hr", 
-      "eventualBG": 114, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined Target: 115 Deviation: -9 BGI: 0.16", 
-      "tick": -2
+      "snoozeBG": 210, 
+      "timestamp": "2016-04-05T03:42:36.000Z", 
+      "rate": 0.7, 
+      "reason": "Eventual BG -59<110, bolus snooze: eventual BG range -59-210; setting current basal of 0.7 as temp", 
+      "eventualBG": -59, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined Target: 115 Deviation: -7 BGI: -0.16", 
+      "tick": "+1"
     }, 
     "iob": {
-      "netbasalinsulin": -0.15, 
-      "timestamp": "2016-04-05T03:22:50.000Z", 
-      "activity": -0.0004, 
-      "basaliob": -0.04, 
+      "netbasalinsulin": -0.2, 
+      "timestamp": "2016-04-05T03:42:35.000Z", 
+      "activity": 0.0004, 
+      "basaliob": -0.181, 
       "hightempinsulin": 0.25, 
-      "bolussnooze": 0, 
-      "iob": -0.04
+      "bolussnooze": 2.24, 
+      "iob": 2.066
+    }, 
+    "enacted": {
+      "bg": 113, 
+      "temp": "absolute", 
+      "snoozeBG": 210, 
+      "recieved": true, 
+      "reason": "Eventual BG -59<110, bolus snooze: eventual BG range -59-210; setting current basal of 0.7 as temp", 
+      "rate": 0.675, 
+      "eventualBG": -59, 
+      "timestamp": "2016-04-05T03:42:40.000Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined Target: 115 Deviation: -7 BGI: -0.16", 
+      "tick": "+1"
     }
   }, 
   "mmtune": {
@@ -40,46 +55,46 @@
       [
         "916.560", 
         4, 
-        -75
+        -69
       ], 
       [
         "916.580", 
         5, 
-        -62
+        -58
       ], 
       [
         "916.600", 
-        4, 
-        -69
+        5, 
+        -57
       ], 
       [
         "916.620", 
         5, 
-        -62
+        -56
       ], 
       [
         "916.640", 
         5, 
-        -61
+        -54
       ], 
       [
         "916.660", 
         5, 
-        -62
+        -55
       ], 
       [
         "916.680", 
         5, 
-        -61
+        -56
       ], 
       [
         "916.700", 
-        3, 
-        -82
+        5, 
+        -63
       ]
     ], 
-    "setFreq": 916.68, 
-    "timestamp": "2016-04-05T03:21:48.000Z", 
+    "setFreq": 916.64, 
+    "timestamp": "2016-04-05T03:41:19.000Z", 
     "usedDefault": false
   }
 }
