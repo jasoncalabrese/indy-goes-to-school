@@ -7,32 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-05T11:31:10.000Z", 
+      "timestamp": "2016-04-05T11:34:05.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 43.65, 
-    "clock": "2016-04-05T04:30:21-07:00"
+    "reservoir": 43.625, 
+    "clock": "2016-04-05T04:32:50-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 122, 
+      "bg": 124, 
       "temp": "absolute", 
-      "snoozeBG": 125, 
-      "timestamp": "2016-04-05T11:31:59.000Z", 
-      "reason": "Eventual BG 126>=120, temp 0.8 >~ req 0.688U/hr", 
-      "eventualBG": 126, 
+      "snoozeBG": 126, 
+      "timestamp": "2016-04-05T11:35:24.000Z", 
+      "reason": "Eventual BG 127>=120, temp 0.8 >~ req 0.713U/hr", 
+      "eventualBG": 127, 
       "mealAssist": "On: 10%, 10%, Carbs: 0 Boluses: 0 Target: 114 Deviation: 5 BGI: 0.48", 
       "tick": "+2"
     }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-04-05T11:31:58.000Z", 
+      "timestamp": "2016-04-05T11:35:24.000Z", 
       "activity": -0.0012, 
-      "basaliob": 0.03, 
+      "basaliob": 0.033, 
       "hightempinsulin": 0.2, 
       "bolussnooze": 0, 
-      "iob": 0.03
+      "iob": 0.033
     }, 
     "enacted": {
       "bg": 116, 
@@ -53,7 +53,7 @@
       [
         "916.540", 
         5, 
-        -72
+        -71
       ], 
       [
         "916.560", 
@@ -63,17 +63,17 @@
       [
         "916.580", 
         5, 
-        -66
+        -64
       ], 
       [
         "916.600", 
         5, 
-        -65
+        -63
       ], 
       [
         "916.620", 
         5, 
-        -64
+        -63
       ], 
       [
         "916.640", 
@@ -89,20 +89,10 @@
         "916.680", 
         5, 
         -73
-      ], 
-      [
-        "916.700", 
-        4, 
-        -71
-      ], 
-      [
-        "916.860", 
-        1, 
-        -96
       ]
     ], 
     "setFreq": 916.62, 
-    "timestamp": "2016-04-05T11:30:40.000Z", 
+    "timestamp": "2016-04-05T11:33:20.000Z", 
     "usedDefault": false
   }
 }
