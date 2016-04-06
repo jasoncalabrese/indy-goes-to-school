@@ -7,32 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-06T08:33:43.000Z", 
+      "timestamp": "2016-04-06T08:35:59.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 154.15, 
-    "clock": "2016-04-06T01:32:54-07:00"
+    "clock": "2016-04-06T01:35:01-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 123, 
+      "bg": 121, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2016-04-06T08:34:24.000Z", 
-      "reason": "Eventual BG 101<110, setting -0.27U/hr, but 27m left and 0 ~ req 0U/hr: no action required", 
-      "eventualBG": 101, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -14 BGI: -2.04", 
-      "tick": -3
+      "snoozeBG": 106, 
+      "timestamp": "2016-04-06T08:36:51.000Z", 
+      "reason": "Eventual BG 106<110, temp 0 ~< req -0.02U/hr", 
+      "eventualBG": 106, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -8 BGI: -1.96", 
+      "tick": -2
     }, 
     "iob": {
       "netbasalinsulin": 0.9, 
-      "timestamp": "2016-04-06T08:34:24.000Z", 
-      "activity": 0.0051, 
-      "basaliob": 0.094, 
+      "timestamp": "2016-04-06T08:36:50.000Z", 
+      "activity": 0.0049, 
+      "basaliob": 0.084, 
       "hightempinsulin": 1.15, 
       "bolussnooze": 0, 
-      "iob": 0.094
+      "iob": 0.084
     }, 
     "enacted": {
       "bg": 123, 
@@ -52,8 +52,8 @@
     "scanDetails": [
       [
         "916.540", 
-        4, 
-        -83
+        5, 
+        -80
       ], 
       [
         "916.560", 
@@ -83,21 +83,21 @@
       [
         "916.660", 
         5, 
-        -67
+        -62
       ], 
       [
         "916.680", 
         5, 
-        -69
+        -67
       ], 
       [
-        "916.700", 
-        2, 
-        -92
+        "916.860", 
+        1, 
+        -97
       ]
     ], 
-    "setFreq": 916.64, 
-    "timestamp": "2016-04-06T08:33:26.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-04-06T08:35:19.000Z", 
     "usedDefault": false
   }
 }
