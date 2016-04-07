@@ -7,34 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-07T04:24:40.000Z", 
+      "timestamp": "2016-04-07T04:27:46.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 135.675, 
-    "clock": "2016-04-06T21:23:49-07:00"
+    "reservoir": 135.05, 
+    "clock": "2016-04-06T21:26:55-07:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 96, 
       "temp": "absolute", 
-      "snoozeBG": 100, 
-      "timestamp": "2016-04-07T04:25:47.000Z", 
-      "rate": 0.7, 
-      "reason": "112-100 in range: no temp required; setting current basal of 0.7 as temp", 
-      "eventualBG": 112, 
-      "duration": 30, 
-      "mealAssist": "On: 44%, 44%, Carbs: 0 Boluses: 0 Target: 108 Deviation: 33 BGI: -5.8", 
+      "snoozeBG": 126, 
+      "timestamp": "2016-04-07T04:28:58.000Z", 
+      "reason": "Meal assist: 35g, 2.75U, bolus snooze: eventual BG range 86-126, temp 0.675 ~ req 0.7U/hr", 
+      "eventualBG": 86, 
+      "mealAssist": "On: 44%, 44%, Carbs: 35 Boluses: 2.75 Target: 108 Deviation: 33 BGI: -5.6", 
       "tick": "+9"
     }, 
     "iob": {
       "netbasalinsulin": -1.6, 
-      "timestamp": "2016-04-07T04:25:46.000Z", 
-      "activity": 0.0145, 
-      "basaliob": -0.659, 
+      "timestamp": "2016-04-07T04:28:57.000Z", 
+      "activity": 0.014, 
+      "basaliob": -0.635, 
       "hightempinsulin": 0, 
-      "bolussnooze": 0.026, 
-      "iob": 0.398
+      "bolussnooze": 0.607, 
+      "iob": 0.955
     }, 
     "enacted": {
       "requested": {
@@ -59,57 +57,92 @@
     "scanDetails": [
       [
         "916.540", 
-        5, 
-        -67
+        4, 
+        -78
       ], 
       [
         "916.560", 
-        5, 
-        -60
+        3, 
+        -75
       ], 
       [
         "916.580", 
-        5, 
-        -58
+        3, 
+        -77
       ], 
       [
         "916.600", 
-        5, 
-        -58
+        4, 
+        -68
       ], 
       [
         "916.620", 
-        5, 
-        -58
+        2, 
+        -83
       ], 
       [
         "916.640", 
-        5, 
-        -58
+        4, 
+        -69
       ], 
       [
         "916.660", 
-        5, 
-        -60
+        1, 
+        -91
       ], 
       [
         "916.680", 
-        5, 
-        -62
+        3, 
+        -76
       ], 
       [
-        "916.820", 
-        1, 
-        -96
+        "916.700", 
+        3, 
+        -77
+      ], 
+      [
+        "916.720", 
+        3, 
+        -79
+      ], 
+      [
+        "916.740", 
+        3, 
+        -79
+      ], 
+      [
+        "916.760", 
+        2, 
+        -85
+      ], 
+      [
+        "916.780", 
+        4, 
+        -74
+      ], 
+      [
+        "916.800", 
+        2, 
+        -87
+      ], 
+      [
+        "916.840", 
+        4, 
+        -75
+      ], 
+      [
+        "916.880", 
+        3, 
+        -80
       ], 
       [
         "916.900", 
         1, 
-        -96
+        -93
       ]
     ], 
-    "setFreq": 916.64, 
-    "timestamp": "2016-04-07T04:24:21.000Z", 
+    "setFreq": 916.6, 
+    "timestamp": "2016-04-07T04:27:18.000Z", 
     "usedDefault": false
   }
 }
