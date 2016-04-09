@@ -7,14 +7,33 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-09T22:04:33.000Z", 
+      "timestamp": "2016-04-09T22:06:36.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 72.25, 
-    "clock": "2016-04-09T15:03:45-07:00"
+    "reservoir": 72.225, 
+    "clock": "2016-04-09T15:05:48-07:00"
   }, 
   "openaps": {
+    "suggested": {
+      "bg": 88, 
+      "temp": "absolute", 
+      "snoozeBG": 130, 
+      "timestamp": "2016-04-09T22:08:39.000Z", 
+      "reason": "Eventual BG -44<110, bolus snooze: eventual BG range -44-130, temp 0.5 ~ req 0.5U/hr", 
+      "eventualBG": -44, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined Target: 115 Deviation: -15 BGI: -2.44", 
+      "tick": -7
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.3, 
+      "timestamp": "2016-04-09T22:08:39.000Z", 
+      "activity": 0.0061, 
+      "basaliob": -0.144, 
+      "hightempinsulin": 0.25, 
+      "bolussnooze": 1.447, 
+      "iob": 1.457
+    }, 
     "enacted": {
       "bg": 103, 
       "temp": "absolute", 
@@ -32,53 +51,48 @@
   "mmtune": {
     "scanDetails": [
       [
-        "916.540", 
-        3, 
-        -81
-      ], 
-      [
         "916.560", 
         4, 
-        -70
+        -75
       ], 
       [
         "916.580", 
         5, 
-        -61
+        -71
       ], 
       [
         "916.600", 
         5, 
-        -61
+        -63
       ], 
       [
         "916.620", 
         5, 
-        -67
+        -61
       ], 
       [
         "916.640", 
         5, 
-        -72
+        -59
       ], 
       [
         "916.660", 
         5, 
-        -68
+        -58
       ], 
       [
         "916.680", 
         5, 
-        -67
+        -59
       ], 
       [
         "916.700", 
-        5, 
-        -75
+        3, 
+        -80
       ]
     ], 
-    "setFreq": 916.6, 
-    "timestamp": "2016-04-09T22:04:16.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-04-09T22:06:19.000Z", 
     "usedDefault": false
   }
 }
