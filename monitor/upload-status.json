@@ -7,32 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-10T14:33:36.000Z", 
+      "timestamp": "2016-04-10T14:41:37.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 57.3, 
-    "clock": "2016-04-10T07:32:49-07:00"
+    "clock": "2016-04-10T07:40:49-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 98, 
+      "bg": 96, 
       "temp": "absolute", 
-      "snoozeBG": 58, 
-      "timestamp": "2016-04-10T14:35:16.000Z", 
-      "reason": "Eventual BG 58<110, setting -2.28U/hr, but 22m left and 0 ~ req 0U/hr: no action required", 
-      "eventualBG": 58, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -47 BGI: 0.2", 
+      "snoozeBG": 74, 
+      "timestamp": "2016-04-10T14:42:32.000Z", 
+      "reason": "Eventual BG 74<110, setting -1.48U/hr, but 26m left and 0 ~ req 0U/hr: no action required", 
+      "eventualBG": 74, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -33 BGI: 0.16", 
       "tick": -2
     }, 
     "iob": {
-      "netbasalinsulin": -0.3, 
-      "timestamp": "2016-04-10T14:35:15.000Z", 
-      "activity": -0.0005, 
-      "basaliob": -0.089, 
-      "hightempinsulin": 0.15, 
+      "netbasalinsulin": -0.35, 
+      "timestamp": "2016-04-10T14:42:31.000Z", 
+      "activity": -0.0004, 
+      "basaliob": -0.136, 
+      "hightempinsulin": 0.1, 
       "bolussnooze": 0, 
-      "iob": -0.089
+      "iob": -0.136
     }
   }, 
   "mmtune": {
@@ -40,7 +40,7 @@
       [
         "916.560", 
         4, 
-        -80
+        -81
       ], 
       [
         "916.580", 
@@ -60,7 +60,7 @@
       [
         "916.640", 
         5, 
-        -70
+        -69
       ], 
       [
         "916.660", 
@@ -74,12 +74,12 @@
       ], 
       [
         "916.700", 
-        2, 
-        -91
+        4, 
+        -83
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-04-10T14:33:20.000Z", 
+    "timestamp": "2016-04-10T14:41:20.000Z", 
     "usedDefault": false
   }
 }
