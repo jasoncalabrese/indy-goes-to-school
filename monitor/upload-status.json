@@ -7,32 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-11T07:56:27.000Z", 
+      "timestamp": "2016-04-11T08:02:26.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 182.3, 
-    "clock": "2016-04-11T00:55:40-07:00"
+    "clock": "2016-04-11T01:01:39-07:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 91, 
       "temp": "absolute", 
-      "snoozeBG": 86, 
-      "timestamp": "2016-04-11T07:59:17.000Z", 
-      "reason": "Eventual BG 86<110, setting -1.02U/hr, but 29m left and 0 ~ req 0U/hr: no action required", 
-      "eventualBG": 86, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -23 BGI: 0.76", 
+      "snoozeBG": 84, 
+      "timestamp": "2016-04-11T08:03:15.000Z", 
+      "reason": "Eventual BG 84<110, setting -1.12U/hr, but 23m left and 0 ~ req 0U/hr: no action required", 
+      "eventualBG": 84, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -24 BGI: 0.92", 
       "tick": "+1"
     }, 
     "iob": {
-      "netbasalinsulin": 0, 
-      "timestamp": "2016-04-11T07:59:16.000Z", 
-      "activity": -0.0019, 
-      "basaliob": -0.221, 
-      "hightempinsulin": 0.55, 
+      "netbasalinsulin": -0.05, 
+      "timestamp": "2016-04-11T08:03:14.000Z", 
+      "activity": -0.0023, 
+      "basaliob": -0.208, 
+      "hightempinsulin": 0.5, 
       "bolussnooze": 0, 
-      "iob": -0.221
+      "iob": -0.208
     }, 
     "enacted": {
       "bg": 90, 
@@ -53,17 +53,17 @@
       [
         "916.560", 
         4, 
-        -79
+        -80
       ], 
       [
         "916.580", 
         5, 
-        -67
+        -68
       ], 
       [
         "916.600", 
         5, 
-        -67
+        -68
       ], 
       [
         "916.620", 
@@ -88,11 +88,11 @@
       [
         "916.700", 
         5, 
-        -76
+        -75
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2016-04-11T07:56:19.000Z", 
+    "timestamp": "2016-04-11T08:02:10.000Z", 
     "usedDefault": false
   }
 }
