@@ -7,32 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-12T06:36:27.000Z", 
+      "timestamp": "2016-04-12T06:39:29.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 158.075, 
-    "clock": "2016-04-11T23:35:39-07:00"
+    "reservoir": 157.925, 
+    "clock": "2016-04-11T23:38:42-07:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 265, 
       "temp": "absolute", 
-      "snoozeBG": 327, 
-      "timestamp": "2016-04-12T06:37:08.000Z", 
-      "reason": "Eventual BG 282>=120, max_iob 2, adj. req. rate:3.6 to maxSafeBasal:2.3, temp 2.25 >~ req 2.3U/hr", 
-      "eventualBG": 282, 
-      "mealAssist": "On: 86%, 86%, Carbs: 0 Boluses: 0 Target: 102 Deviation: 43 BGI: -3.36", 
+      "snoozeBG": 317, 
+      "timestamp": "2016-04-12T06:40:11.000Z", 
+      "reason": "Eventual BG 286>=120, max_iob 2, adj. req. rate:3.4 to maxSafeBasal:2.3, temp 2.25 >~ req 2.3U/hr", 
+      "eventualBG": 286, 
+      "mealAssist": "On: 88%, 88%, Carbs: 0 Boluses: 0 Target: 102 Deviation: 44 BGI: -3.6", 
       "tick": "+11"
     }, 
     "iob": {
-      "netbasalinsulin": 1.35, 
-      "timestamp": "2016-04-12T06:37:08.000Z", 
-      "activity": 0.0084, 
-      "basaliob": 0.571, 
-      "hightempinsulin": 1.75, 
-      "bolussnooze": 1.689, 
-      "iob": 2.303
+      "netbasalinsulin": 1.45, 
+      "timestamp": "2016-04-12T06:40:10.000Z", 
+      "activity": 0.009, 
+      "basaliob": 0.654, 
+      "hightempinsulin": 1.85, 
+      "bolussnooze": 1.65, 
+      "iob": 2.375
     }, 
     "enacted": {
       "bg": 254, 
@@ -58,12 +58,12 @@
       [
         "916.580", 
         5, 
-        -76
+        -77
       ], 
       [
         "916.600", 
         5, 
-        -74
+        -75
       ], 
       [
         "916.620", 
@@ -83,16 +83,16 @@
       [
         "916.680", 
         5, 
-        -75
+        -77
       ], 
       [
         "916.700", 
-        4, 
-        -85
+        2, 
+        -92
       ]
     ], 
     "setFreq": 916.64, 
-    "timestamp": "2016-04-12T06:36:10.000Z", 
+    "timestamp": "2016-04-12T06:39:13.000Z", 
     "usedDefault": false
   }
 }
