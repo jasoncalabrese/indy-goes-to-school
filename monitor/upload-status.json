@@ -7,32 +7,32 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-04-12T08:19:27.000Z", 
+      "timestamp": "2016-04-12T08:21:40.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 155.125, 
-    "clock": "2016-04-12T01:18:40-07:00"
+    "reservoir": 155.075, 
+    "clock": "2016-04-12T01:20:53-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 239, 
+      "bg": 243, 
       "temp": "absolute", 
-      "snoozeBG": 192, 
-      "timestamp": "2016-04-12T08:20:11.000Z", 
-      "reason": "Eventual BG 165>=120, adj. req. rate:2.1 to maxSafeBasal:1.7, temp 1.7 >~ req 1.7U/hr", 
-      "eventualBG": 165, 
-      "mealAssist": "On: 19%, 100%, Carbs: 0 Boluses: 2.8 Target: 100 Deviation: 43 BGI: -12.16", 
+      "snoozeBG": 197, 
+      "timestamp": "2016-04-12T08:22:36.000Z", 
+      "reason": "Eventual BG 180>=120, adj. req. rate:2.4 to maxSafeBasal:1.7, temp 1.7 >~ req 1.7U/hr", 
+      "eventualBG": 180, 
+      "mealAssist": "On: 25%, 100%, Carbs: 0 Boluses: 2.8 Target: 100 Deviation: 45 BGI: -11.92", 
       "tick": "+4"
     }, 
     "iob": {
       "netbasalinsulin": 1.75, 
-      "timestamp": "2016-04-12T08:20:11.000Z", 
-      "activity": 0.0304, 
-      "basaliob": 0.692, 
+      "timestamp": "2016-04-12T08:22:35.000Z", 
+      "activity": 0.0298, 
+      "basaliob": 0.717, 
       "hightempinsulin": 2, 
-      "bolussnooze": 0.458, 
-      "iob": 1.816
+      "bolussnooze": 0.445, 
+      "iob": 1.801
     }, 
     "enacted": {
       "requested": {
@@ -63,7 +63,7 @@
       [
         "916.580", 
         5, 
-        -72
+        -71
       ], 
       [
         "916.600", 
@@ -73,7 +73,7 @@
       [
         "916.620", 
         5, 
-        -69
+        -70
       ], 
       [
         "916.640", 
@@ -93,11 +93,11 @@
       [
         "916.700", 
         5, 
-        -77
+        -76
       ]
     ], 
-    "setFreq": 916.62, 
-    "timestamp": "2016-04-12T08:19:11.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-04-12T08:21:20.000Z", 
     "usedDefault": false
   }
 }
